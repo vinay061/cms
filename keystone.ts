@@ -20,7 +20,7 @@ export default withAuth(
     // the db sets the database provider - we're using sqlite for the fastest startup experience
     db: {
       provider: 'postgresql',
-      url: 'postgres://vinayapp@localhost/railway',
+      url: 'postgresql://postgres:IcIxRW8tv1xOO8SzhhaE@containers-us-west-67.railway.app:6104/railway',
     },
     // This config allows us to set up features of the Admin UI https://keystonejs.com/docs/apis/config#ui
     ui: {
